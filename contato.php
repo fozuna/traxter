@@ -57,8 +57,8 @@ $page->renderHeader('contato');
                                 <h4 class="text-white font-semibold mb-1">Escritório Central</h4>
                                 <p class="text-brand-muted text-sm mb-2">Venha tomar um café conosco.</p>
                                 <address class="text-brand-muted not-italic">
-                                    Av. Paulista, 1106 - Bela Vista<br>
-                                    São Paulo - SP, 01310-914
+                                    Av. Senador Antônio Mendes Canale, 1429 - Pioneiros<br>
+                                    Campo Grande, 79070-295
                                 </address>
                             </div>
                         </div>
@@ -83,7 +83,7 @@ $page->renderHeader('contato');
             <div class="animate-fade-in-up" style="animation-delay: 0.4s;">
                 <div class="glass-card p-8 md:p-10 rounded-2xl border border-white/5 relative overflow-hidden shadow-2xl">
                     <h3 class="text-2xl font-display font-bold text-white mb-2 text-center">Conecte-se Conosco</h3>
-                    <p class="text-brand-muted text-center mb-8">Escolha seu canal preferido para iniciar uma conversa estratégica.</p>
+                
                     
                     <div class="flex flex-col gap-4">
                         <!-- WhatsApp -->
@@ -175,6 +175,37 @@ $page->renderHeader('contato');
         </div>
     </div>
 </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const faqButtons = document.querySelectorAll('.glass-card button');
+    
+    faqButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Toggle content visibility
+            const content = button.nextElementSibling;
+            content.classList.toggle('hidden');
+            
+            // Toggle icon rotation
+            const icon = button.querySelector('svg');
+            icon.classList.toggle('rotate-180');
+            
+            // Optional: Close other items (accordion behavior)
+            faqButtons.forEach(otherButton => {
+                if (otherButton !== button) {
+                    const otherContent = otherButton.nextElementSibling;
+                    const otherIcon = otherButton.querySelector('svg');
+                    
+                    if (!otherContent.classList.contains('hidden')) {
+                        otherContent.classList.add('hidden');
+                        otherIcon.classList.remove('rotate-180');
+                    }
+                }
+            });
+        });
+    });
+});
+</script>
 
 <?php
 $page->renderFooter();
