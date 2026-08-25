@@ -25,7 +25,17 @@ class TraxterPage {
             <meta name="description" content="<?php echo $this->description; ?>">
             <meta name="theme-color" content="#0B1120">
             <title><?php echo $this->title; ?></title>
-            
+
+            <!-- Google tag (gtag.js) -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-HM7H90EN72"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-HM7H90EN72');
+            </script>
+
             <!-- Fonte Inter & Space Grotesk -->
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
