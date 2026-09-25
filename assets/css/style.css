@@ -100,3 +100,9 @@ body {
     background: linear-gradient(90deg, transparent, rgba(37, 99, 235, 0.3), transparent);
     width: 100%;
 }
+
+/* FAQ acordeão */
+[data-faq] > div { display: none; }
+[data-faq].open > div { display: block; }
+[data-faq] > button svg { transition: transform .3s; }
+[data-faq].open > button svg { transform: rotate(180deg); }

@@ -21,7 +21,7 @@ $page->renderHeader('engenharia-software');
             
             <h1 class="text-5xl md:text-7xl font-display font-bold text-white tracking-tight mb-6 leading-tight animate-fade-in-up" style="animation-delay: 0.1s;">
                 Arquiteturas Robustas para <br>
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary via-brand-cyan to-brand-violet">Escalabilidade Infinita</span>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary via-brand-cyan to-brand-secondary">Escalabilidade Infinita</span>
             </h1>
             
             <p class="text-xl text-brand-muted leading-relaxed animate-fade-in-up" style="animation-delay: 0.2s;">
@@ -58,9 +58,9 @@ $page->renderHeader('engenharia-software');
             </div>
 
             <!-- Capability 3 -->
-            <div class="glass-card p-8 rounded-2xl border border-white/5 group hover:border-brand-violet/30 transition-all duration-500">
-                <div class="w-14 h-14 rounded-xl bg-brand-violet/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500">
-                    <svg class="w-7 h-7 text-brand-violet" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+            <div class="glass-card p-8 rounded-2xl border border-white/5 group hover:border-brand-secondary/30 transition-all duration-500">
+                <div class="w-14 h-14 rounded-xl bg-brand-secondary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500">
+                    <svg class="w-7 h-7 text-brand-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
                 </div>
                 <h3 class="text-xl font-display font-bold text-white mb-3">Security by Design</h3>
                 <p class="text-brand-muted text-sm leading-relaxed">
@@ -94,11 +94,11 @@ $page->renderHeader('engenharia-software');
             
             <!-- Frontend -->
             <div class="glass-card p-6 rounded-xl border border-white/5 text-center hover:bg-white/5 transition-colors">
-                <span class="text-brand-violet font-mono text-sm block mb-2">Frontend</span>
+                <span class="text-brand-secondary font-mono text-sm block mb-2">Frontend</span>
                 <span class="text-white font-bold text-lg">React / Next.js</span>
             </div>
             <div class="glass-card p-6 rounded-xl border border-white/5 text-center hover:bg-white/5 transition-colors">
-                <span class="text-brand-violet font-mono text-sm block mb-2">Frontend</span>
+                <span class="text-brand-secondary font-mono text-sm block mb-2">Frontend</span>
                 <span class="text-white font-bold text-lg">Vue / Nuxt</span>
             </div>
 

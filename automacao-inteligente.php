@@ -21,7 +21,7 @@ $page->renderHeader('automacao-inteligente');
             
             <h1 class="text-5xl md:text-7xl font-display font-bold text-white tracking-tight mb-6 leading-tight animate-fade-in-up" style="animation-delay: 0.1s;">
                 Operações Autônomas para <br>
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-cyan via-brand-primary to-brand-violet">Eficiência Máxima</span>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-cyan via-brand-primary to-brand-secondary">Eficiência Máxima</span>
             </h1>
             
             <p class="text-xl text-brand-muted leading-relaxed animate-fade-in-up" style="animation-delay: 0.2s;">

@@ -118,7 +118,7 @@ $page->renderHeader('sobre');
 <section class="py-20 bg-brand-darker relative overflow-hidden">
     <!-- Background Elements -->
     <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-primary/5 blur-[120px] rounded-full translate-x-1/3 -translate-y-1/3"></div>
-    <div class="absolute bottom-0 left-0 w-[500px] h-[500px] bg-brand-violet/5 blur-[100px] rounded-full -translate-x-1/3 translate-y-1/3"></div>
+    <div class="absolute bottom-0 left-0 w-[500px] h-[500px] bg-brand-secondary/5 blur-[100px] rounded-full -translate-x-1/3 translate-y-1/3"></div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
@@ -131,7 +131,7 @@ $page->renderHeader('sobre');
                 
                 <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-6 leading-tight">
                     Mais do que código.<br>
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-brand-violet">Engenharia de Resultados.</span>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-brand-secondary">Engenharia de Resultados.</span>
                 </h2>
                 
                 <p class="text-brand-muted text-lg leading-relaxed mb-8">
@@ -185,7 +185,7 @@ $page->renderHeader('sobre');
                     <div class="text-brand-muted text-sm uppercase tracking-wider">Usuários Impactados</div>
                 </div>
                 <div class="glass-card p-6 rounded-2xl border border-white/5 bg-white/5 text-center group hover:bg-white/10 transition-colors">
-                    <div class="text-4xl font-bold text-brand-violet mb-2 group-hover:scale-110 transition-transform duration-300">30%</div>
+                    <div class="text-4xl font-bold text-brand-secondary mb-2 group-hover:scale-110 transition-transform duration-300">30%</div>
                     <div class="text-brand-muted text-sm uppercase tracking-wider">Redução de Custos Cloud</div>
                 </div>
                 <div class="glass-card p-6 rounded-2xl border border-white/5 bg-white/5 text-center group hover:bg-white/10 transition-colors">

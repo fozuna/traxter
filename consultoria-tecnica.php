@@ -179,12 +179,12 @@ $page->renderHeader('consultoria-tecnica');
                         </div>
 
                          <!-- Item 3: Governance -->
-                        <div class="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-white/5 hover:border-brand-violet/30 transition-colors group cursor-default">
-                            <div class="w-10 h-10 rounded-lg bg-brand-violet/20 flex items-center justify-center flex-shrink-0 group-hover:bg-brand-violet/30 transition-colors">
-                                <svg class="w-5 h-5 text-brand-violet" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                        <div class="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-white/5 hover:border-brand-secondary/30 transition-colors group cursor-default">
+                            <div class="w-10 h-10 rounded-lg bg-brand-secondary/20 flex items-center justify-center flex-shrink-0 group-hover:bg-brand-secondary/30 transition-colors">
+                                <svg class="w-5 h-5 text-brand-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
                             </div>
                             <div>
-                                <h4 class="text-white font-semibold text-sm group-hover:text-brand-violet transition-colors">Governança & Compliance</h4>
+                                <h4 class="text-white font-semibold text-sm group-hover:text-brand-secondary transition-colors">Governança & Compliance</h4>
                                 <p class="text-brand-muted text-xs mt-1 leading-relaxed">Matriz de riscos, auditoria de processos e conformidade com padrões de segurança (ISO/LGPD).</p>
                             </div>
                         </div>

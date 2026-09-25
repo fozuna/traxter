@@ -118,9 +118,9 @@ $page->renderHeader('sla');
                     <svg class="w-5 h-5 text-brand-cyan mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                     <span class="text-white group-hover:text-brand-cyan transition-colors">support@traxter.com.br</span>
                 </a>
-                <a href="#" class="flex items-center justify-center px-6 py-3 border border-white/10 rounded-lg bg-white/5 hover:bg-white/10 hover:border-brand-cyan/50 transition-all group">
-                    <svg class="w-5 h-5 text-brand-cyan mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
-                    <span class="text-white group-hover:text-brand-cyan transition-colors">Portal do Cliente</span>
+                <a href="<?= TraxterPage::e(TraxterPage::whatsappUrl('Olá! Sou cliente Traxter e preciso de suporte.')) ?>" target="_blank" rel="noopener" data-wa="sla" class="flex items-center justify-center px-6 py-3 border border-white/10 rounded-lg bg-white/5 hover:bg-white/10 hover:border-brand-cyan/50 transition-all group">
+                    <?= TraxterPage::whatsappIcon('w-5 h-5 mr-2 text-green-400') ?>
+                    <span class="text-white group-hover:text-brand-cyan transition-colors">WhatsApp de suporte</span>
                 </a>
             </div>
 
