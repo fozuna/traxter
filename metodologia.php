@@ -38,7 +38,7 @@ $page->renderHeader('metodologia');
                             Mergulhamos no seu negócio para entender o problema raiz, não apenas o sintoma. Definimos KPIs, escopo e viabilidade técnica antes de escrever uma linha de código.
                         </p>
                     </div>
-                    <div class="w-12 h-12 rounded-full bg-brand-primary border-4 border-brand-darker shadow-[0_0_20px_rgba(37,99,235,0.5)] z-10 flex items-center justify-center text-white font-bold text-lg order-2 my-4 md:my-0">01</div>
+                    <div class="w-12 h-12 rounded-full bg-brand-primary border-4 border-brand-darker shadow-[0_0_20px_rgba(252,163,17,0.5)] z-10 flex items-center justify-center text-black font-bold text-lg order-2 my-4 md:my-0">01</div>
                     <div class="md:w-5/12 pl-8 order-3">
                         <span class="text-brand-primary text-xs font-bold uppercase tracking-wider bg-brand-primary/10 px-3 py-1 rounded-full">Planejamento</span>
                     </div>
@@ -54,7 +54,7 @@ $page->renderHeader('metodologia');
                             Desenhamos sistemas resilientes e escaláveis. Definimos stack, infraestrutura cloud, modelagem de dados e padrões de integração.
                         </p>
                     </div>
-                    <div class="w-12 h-12 rounded-full bg-brand-secondary border-4 border-brand-darker shadow-[0_0_20px_rgba(109,40,217,0.5)] z-10 flex items-center justify-center text-white font-bold text-lg order-2 my-4 md:my-0">02</div>
+                    <div class="w-12 h-12 rounded-full bg-brand-secondary border-4 border-brand-darker shadow-[0_0_20px_rgba(143,165,208,0.5)] z-10 flex items-center justify-center text-white font-bold text-lg order-2 my-4 md:my-0">02</div>
                     <div class="md:w-5/12 pr-8 text-right md:text-left order-3 md:order-1">
                         <span class="text-brand-secondary text-xs font-bold uppercase tracking-wider bg-brand-secondary/10 px-3 py-1 rounded-full">Design</span>
                     </div>
@@ -70,7 +70,7 @@ $page->renderHeader('metodologia');
                             Ciclos curtos (Sprints), entrega contínua e feedback rápido. Código limpo, revisado por pares e documentado.
                         </p>
                     </div>
-                    <div class="w-12 h-12 rounded-full bg-brand-cyan border-4 border-brand-darker shadow-[0_0_20px_rgba(8,145,178,0.5)] z-10 flex items-center justify-center text-white font-bold text-lg order-2 my-4 md:my-0">03</div>
+                    <div class="w-12 h-12 rounded-full bg-brand-cyan border-4 border-brand-darker shadow-[0_0_20px_rgba(252,163,17,0.5)] z-10 flex items-center justify-center text-black font-bold text-lg order-2 my-4 md:my-0">03</div>
                     <div class="md:w-5/12 pl-8 order-3">
                         <span class="text-brand-cyan text-xs font-bold uppercase tracking-wider bg-brand-cyan/10 px-3 py-1 rounded-full">Execução</span>
                     </div>
@@ -86,7 +86,7 @@ $page->renderHeader('metodologia');
                             Testes automatizados, análise de vulnerabilidades e validação de performance. Nada vai para produção sem garantia de qualidade.
                         </p>
                     </div>
-                    <div class="w-12 h-12 rounded-full bg-brand-primary border-4 border-brand-darker shadow-[0_0_20px_rgba(37,99,235,0.5)] z-10 flex items-center justify-center text-white font-bold text-lg order-2 my-4 md:my-0">04</div>
+                    <div class="w-12 h-12 rounded-full bg-brand-primary border-4 border-brand-darker shadow-[0_0_20px_rgba(252,163,17,0.5)] z-10 flex items-center justify-center text-black font-bold text-lg order-2 my-4 md:my-0">04</div>
                     <div class="md:w-5/12 pr-8 text-right md:text-left order-3 md:order-1">
                         <span class="text-brand-primary text-xs font-bold uppercase tracking-wider bg-brand-primary/10 px-3 py-1 rounded-full">Qualidade</span>
                     </div>
