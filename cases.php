@@ -148,14 +148,14 @@ $page->renderHeader('cases');
                             <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:20px_20px]"></div>
                             
                             <!-- Nodes -->
-                            <div class="absolute top-[20%] left-[20%] w-3 h-3 rounded-full bg-brand-violet/50 border border-brand-violet shadow-[0_0_10px_rgba(109,40,217,0.5)] z-20"></div>
-                            <div class="absolute top-[60%] left-[40%] w-3 h-3 rounded-full bg-brand-violet/50 border border-brand-violet shadow-[0_0_10px_rgba(109,40,217,0.5)] z-20"></div>
+                            <div class="absolute top-[20%] left-[20%] w-3 h-3 rounded-full bg-brand-violet/50 border border-brand-violet shadow-[0_0_10px_rgba(143,165,208,0.5)] z-20"></div>
+                            <div class="absolute top-[60%] left-[40%] w-3 h-3 rounded-full bg-brand-violet/50 border border-brand-violet shadow-[0_0_10px_rgba(143,165,208,0.5)] z-20"></div>
                             <div class="absolute top-[30%] right-[30%] w-3 h-3 rounded-full bg-white/50 border border-white z-20"></div> <!-- Destination -->
                             
                             <!-- Connecting Lines (SVG) -->
                             <svg class="absolute inset-0 w-full h-full z-10 pointer-events-none">
-                                <path d="M80 50 L160 140" stroke="rgba(109, 40, 217, 0.3)" stroke-width="1" stroke-dasharray="4 4" />
-                                <path d="M160 140 L280 70" stroke="#6D28D9" stroke-width="2" fill="none" class="drop-shadow-[0_0_5px_rgba(109,40,217,0.5)]">
+                                <path d="M80 50 L160 140" stroke="rgba(143, 165, 208, 0.3)" stroke-width="1" stroke-dasharray="4 4" />
+                                <path d="M160 140 L280 70" stroke="#8FA5D0" stroke-width="2" fill="none" class="drop-shadow-[0_0_5px_rgba(143,165,208,0.5)]">
                                     <animate attributeName="stroke-dasharray" from="0, 1000" to="1000, 0" duration="3s" repeatCount="indefinite" />
                                 </path>
                             </svg>

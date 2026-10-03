@@ -5,23 +5,25 @@ tailwind.config = {
         extend: {
             colors: {
                 brand: {
-                    dark: '#0B1120',      // Azul Profundo Exclusivo
-                    darker: '#020617',    // Slate 950 (Fundo base)
-                    surface: '#111827',   // Background Secundário
-                    primary: '#2563EB',   // Traxter Blue
-                    secondary: '#6D28D9', // Deep Violet
-                    cyan: '#0891B2',      // Electric Cyan
-                    text: '#F1F5F9',      // Texto Principal
-                    muted: '#94A3B8',     // Texto Secundário
+                    dark: '#0B1428',      // Navy 950
+                    darker: '#05070D',    // Black Traxter (fundo base)
+                    surface: '#14213D',   // Navy 900 (cartões e seções)
+                    primary: '#FCA311',   // Âmbar 500 (ação / destaque, até 10% da área)
+                    secondary: '#324A78', // Navy 600
+                    cyan: '#FDB52F',      // Âmbar 400 (texto de destaque sobre escuro)
+                    violet: '#8FA5D0',    // Navy 300 (antes indefinido)
+                    text: '#EEF2FA',      // Navy 50
+                    muted: '#B9C8E6',     // Navy 200
                 }
             },
             fontFamily: {
-                sans: ['Inter', 'sans-serif'],
-                display: ['Space Grotesk', 'sans-serif'],
+                sans: ['"IBM Plex Sans"', 'system-ui', 'sans-serif'],
+                display: ['Archivo', 'system-ui', 'sans-serif'],
+                mono: ['"IBM Plex Mono"', 'ui-monospace', 'monospace'],
             },
             backgroundImage: {
                 'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-                'hero-glow': 'conic-gradient(from 180deg at 50% 50%, #2563EB33 0deg, #6D28D933 180deg, #0891B233 360deg)',
+                'hero-glow': 'conic-gradient(from 180deg at 50% 50%, #FCA31133 0deg, #14213D66 180deg, #FCA31122 360deg)',
             },
             animation: {
                 'fade-in-up': 'fadeInUp 0.8s ease-out forwards',

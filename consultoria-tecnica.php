@@ -146,7 +146,7 @@ $page->renderHeader('consultoria-tecnica');
                 </div>
             </div>
 
-            <div class="glass-card p-8 rounded-2xl border border-white/10 bg-[#0B1120]/80 relative overflow-hidden h-full flex flex-col justify-center">
+            <div class="glass-card p-8 rounded-2xl border border-white/10 bg-[#0B1428]/80 relative overflow-hidden h-full flex flex-col justify-center">
                 <!-- Decorative Background -->
                 <div class="absolute top-0 right-0 w-64 h-64 bg-brand-primary/10 blur-[80px] rounded-full -translate-y-1/2 translate-x-1/2"></div>
                 <div class="absolute bottom-0 left-0 w-64 h-64 bg-brand-cyan/10 blur-[80px] rounded-full translate-y-1/2 -translate-x-1/2"></div>

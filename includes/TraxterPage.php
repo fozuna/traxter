@@ -23,7 +23,11 @@ class TraxterPage {
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta name="description" content="<?php echo $this->description; ?>">
-            <meta name="theme-color" content="#0B1120">
+            <meta name="theme-color" content="#14213D">
+            <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+            <meta property="og:type" content="website">
+            <meta property="og:title" content="<?php echo $this->title; ?>">
+            <meta property="og:description" content="<?php echo $this->description; ?>">
             <title><?php echo $this->title; ?></title>
 
             <!-- Google tag (gtag.js) -->
@@ -36,10 +40,10 @@ class TraxterPage {
               gtag('config', 'G-HM7H90EN72');
             </script>
 
-            <!-- Fonte Inter & Space Grotesk -->
+            <!-- Fontes da marca: Archivo, IBM Plex Sans e IBM Plex Mono -->
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
             
             <!-- Tailwind CSS -->
             <script src="https://cdn.tailwindcss.com"></script>
@@ -48,7 +52,7 @@ class TraxterPage {
             <!-- Custom CSS -->
             <link rel="stylesheet" href="assets/css/style.css">
         </head>
-        <body class="antialiased selection:bg-brand-primary selection:text-white">
+        <body class="antialiased selection:bg-brand-primary selection:text-black">
             <div class="noise-overlay"></div>
             <?php $this->renderNavbar($activePage); ?>
         <?php
@@ -62,10 +66,8 @@ class TraxterPage {
                 <div class="flex items-center justify-between h-16">
                     <!-- Logo -->
                     <a href="index.php" class="flex-shrink-0 flex items-center gap-2 group cursor-pointer text-decoration-none">
-                        <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-brand-primary to-brand-secondary flex items-center justify-center shadow-lg shadow-brand-primary/20 group-hover:shadow-brand-primary/40 transition-all">
-                            <span class="text-white font-bold text-lg">T</span>
-                        </div>
-                        <span class="text-2xl font-display font-bold text-white tracking-tight group-hover:text-brand-cyan transition-colors">TRAXTER<span class="text-brand-primary">.</span></span>
+                        <span class="sym text-3xl" aria-hidden="true"><i></i><i></i><i></i></span>
+                        <span class="wm text-2xl" aria-label="TRAXTER">TRAXTER</span>
                     </a>
                     
                     <!-- Desktop Menu -->
@@ -80,7 +82,7 @@ class TraxterPage {
                                 Soluções
                                 <svg class="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                             </button>
-                            <div class="absolute left-0 mt-0 w-64 rounded-xl bg-[#0B1120]/95 backdrop-blur-xl border border-white/10 shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform origin-top-left z-50 overflow-hidden translate-y-2 group-hover:translate-y-0">
+                            <div class="absolute left-0 mt-0 w-64 rounded-xl bg-[#0B1428]/95 backdrop-blur-xl border border-white/10 shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform origin-top-left z-50 overflow-hidden translate-y-2 group-hover:translate-y-0">
                                 <div class="py-2">
                                     <a href="engenharia-software.php" class="block px-6 py-3 text-sm <?php echo $activePage === 'engenharia-software' ? 'text-brand-cyan bg-white/5' : 'text-brand-muted hover:bg-white/5 hover:text-brand-cyan'; ?> transition-colors border-b border-white/5">Engenharia de Software</a>
                                     <a href="automacao-inteligente.php" class="block px-6 py-3 text-sm <?php echo $activePage === 'automacao-inteligente' ? 'text-brand-cyan bg-white/5' : 'text-brand-muted hover:bg-white/5 hover:text-brand-cyan'; ?> transition-colors border-b border-white/5">Automação Inteligente</a>
@@ -96,7 +98,7 @@ class TraxterPage {
                                 A Empresa
                                 <svg class="w-4 h-4 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                             </button>
-                            <div class="absolute left-0 mt-0 w-56 rounded-xl bg-[#0B1120]/95 backdrop-blur-xl border border-white/10 shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform origin-top-left z-50 overflow-hidden translate-y-2 group-hover:translate-y-0">
+                            <div class="absolute left-0 mt-0 w-56 rounded-xl bg-[#0B1428]/95 backdrop-blur-xl border border-white/10 shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform origin-top-left z-50 overflow-hidden translate-y-2 group-hover:translate-y-0">
                                 <div class="py-2">
                                     <a href="sobre.php" class="block px-6 py-3 text-sm <?php echo $activePage === 'sobre' ? 'text-brand-cyan bg-white/5' : 'text-brand-muted hover:bg-white/5 hover:text-brand-cyan'; ?> transition-colors border-b border-white/5">Sobre Nós</a>
                                     <a href="metodologia.php" class="block px-6 py-3 text-sm <?php echo $activePage === 'metodologia' ? 'text-brand-cyan bg-white/5' : 'text-brand-muted hover:bg-white/5 hover:text-brand-cyan'; ?> transition-colors">Metodologia</a>
@@ -128,7 +130,7 @@ class TraxterPage {
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                     <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
                         <div class="col-span-1 md:col-span-1">
-                            <span class="text-2xl font-display font-bold text-white tracking-tight">TRAXTER<span class="text-brand-primary">.</span></span>
+                            <span class="inline-flex items-center gap-2"><span class="sym text-3xl" aria-hidden="true"><i></i><i></i><i></i></span><span class="wm text-2xl">TRAXTER</span></span>
                             <p class="text-brand-muted text-sm mt-4 leading-relaxed">
                                 Engenharia de software estratégica e infraestrutura digital para negócios de alta performance.
                             </p>

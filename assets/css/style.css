@@ -2,8 +2,8 @@
 
 /* Base Styles */
 body {
-    background-color: #0B1120;
-    color: #F1F5F9;
+    background-color: #05070D;
+    color: #EEF2FA;font-family:'IBM Plex Sans',system-ui,sans-serif;
     overflow-x: hidden;
 }
 
@@ -25,14 +25,14 @@ body {
     width: 8px;
 }
 ::-webkit-scrollbar-track {
-    background: #0B1120;
+    background: #05070D;
 }
 ::-webkit-scrollbar-thumb {
-    background: #1e293b;
+    background: #263A5E;
     border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #334155;
+    background: #324A78;
 }
 
 /* Glassmorphism Refinado */
@@ -47,14 +47,15 @@ body {
 
 .glass-card:hover {
     background: rgba(17, 24, 39, 0.6);
-    border-color: rgba(37, 99, 235, 0.2);
+    border-color: rgba(252, 163, 17, 0.2);
     transform: translateY(-5px);
-    box-shadow: 0 20px 40px -10px rgba(37, 99, 235, 0.1);
+    box-shadow: 0 20px 40px -10px rgba(252, 163, 17, 0.1);
 }
 
 /* Text Gradient Animado */
+/* Texto de destaque: âmbar sobre fundo escuro (marca: âmbar <= 10% da área) */
 .text-gradient-animated {
-    background: linear-gradient(to right, #2563EB, #6D28D9, #0891B2, #2563EB);
+    background: linear-gradient(to right, #FCA311, #FEDF8C, #FCA311);
     background-size: 200% auto;
     color: transparent;
     -webkit-background-clip: text;
@@ -63,20 +64,22 @@ body {
 }
 
 /* Botão Gradiente Dinâmico */
+/* CTA primário: âmbar sólido, texto sempre preto (contraste 11:1) */
 .btn-gradient {
-    background: linear-gradient(90deg, #2563EB 0%, #6D28D9 100%);
-    background-size: 200% auto;
-    transition: all 0.5s ease;
+    background: #FCA311;
+    color: #05070D !important;
+    transition: all 0.3s ease;
 }
 .btn-gradient:hover {
-    background-position: right center;
-    transform: scale(1.02);
-    box-shadow: 0 10px 25px -5px rgba(109, 40, 217, 0.4);
+    background: #FDB52F;
+    transform: translateY(-1px);
+    box-shadow: 0 10px 25px -5px rgba(252, 163, 17, 0.35);
 }
+.btn-gradient:focus-visible { outline: 2px solid #FDC95A; outline-offset: 3px; }
 
 /* Navbar Scroll Effect */
 .nav-scrolled {
-    background: rgba(11, 17, 32, 0.85);
+    background: rgba(11, 20, 40, 0.85);
     backdrop-filter: blur(16px);
     border-bottom: 1px solid rgba(255,255,255,0.05);
     padding-top: 1rem !important;
@@ -97,6 +100,18 @@ body {
 /* Separator Gradient */
 .section-separator {
     height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(37, 99, 235, 0.3), transparent);
+    background: linear-gradient(90deg, transparent, rgba(252, 163, 17, 0.3), transparent);
     width: 100%;
 }
+
+
+/* Assinatura TRAXTER: símbolo (Nó em T) + wordmark */
+.sym{display:inline-block;position:relative;width:1em;height:1em;flex:none}
+.sym i{position:absolute;background:#fff;display:block}
+.sym i:nth-child(1){left:.14em;top:.11em;width:.72em;height:.20em;border-radius:.045em}
+.sym i:nth-child(2){left:.40em;top:.36em;width:.20em;height:.28em;border-radius:.045em}
+.sym i:nth-child(3){left:.40em;top:.69em;width:.20em;height:.20em;border-radius:50%;background:#FCA311}
+.wm{display:inline-flex;align-items:baseline;font:800 1em/1 'Archivo',system-ui,sans-serif;font-stretch:110%;letter-spacing:-.03em;color:#fff;white-space:nowrap}
+.wm i{display:inline-block;width:.16em;height:.16em;border-radius:50%;background:#FCA311;margin-left:.07em}
+h1,h2,h3{font-stretch:108%;letter-spacing:-.025em}
+:focus-visible{outline:2px solid #FCA311;outline-offset:3px}
