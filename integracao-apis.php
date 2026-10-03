@@ -21,7 +21,7 @@ $page->renderHeader('integracao-apis');
             
             <h1 class="text-5xl md:text-7xl font-display font-bold text-white tracking-tight mb-6 leading-tight animate-fade-in-up" style="animation-delay: 0.1s;">
                 Ecossistemas Digitais <br/>Totalmente <span class="text-gradient-animated">Integrados</span>.
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-violet via-brand-primary to-brand-cyan">Totalmente Integrados</span>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary via-brand-cyan to-[#FEDF8C]">Totalmente Integrados</span>
             </h1>
             
             <p class="text-xl text-brand-muted leading-relaxed animate-fade-in-up" style="animation-delay: 0.2s;">

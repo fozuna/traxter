@@ -8,7 +8,7 @@ $page->renderHeader('contato');
 <section class="relative pt-32 pb-20 overflow-hidden">
     <!-- Background Elements -->
     <div class="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
-        <div class="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-brand-primary/20 blur-[120px] rounded-full animate-pulse-slow"></div>
+        <div class="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-brand-primary/10 blur-[120px] rounded-full animate-pulse-slow"></div>
         <div class="absolute bottom-[-10%] left-[-5%] w-[500px] h-[500px] bg-brand-violet/20 blur-[120px] rounded-full animate-pulse-slow" style="animation-delay: 2s;"></div>
     </div>
 
@@ -21,7 +21,7 @@ $page->renderHeader('contato');
             
             <h1 class="text-5xl md:text-7xl font-display font-bold text-white tracking-tight mb-6 leading-tight animate-fade-in-up" style="animation-delay: 0.1s;">
                 Inicie sua <br>
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary via-brand-cyan to-brand-violet">Transformação Digital</span>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary via-brand-cyan to-[#FEDF8C]">Transformação Digital</span>
             </h1>
             
             <p class="text-xl text-brand-muted leading-relaxed animate-fade-in-up" style="animation-delay: 0.2s;">

@@ -21,7 +21,7 @@ $page->renderHeader('cases');
             
             <h1 class="text-5xl md:text-7xl font-display font-bold text-white tracking-tight mb-6 leading-tight animate-fade-in-up" style="animation-delay: 0.1s;">
                 Resultados que Falam <br>
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary via-brand-cyan to-brand-violet">Mais que Código</span>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary via-brand-cyan to-[#FEDF8C]">Mais que Código</span>
             </h1>
             
             <p class="text-xl text-brand-muted leading-relaxed animate-fade-in-up" style="animation-delay: 0.2s;">

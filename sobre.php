@@ -131,7 +131,7 @@ $page->renderHeader('sobre');
                 
                 <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-6 leading-tight">
                     Mais do que código.<br>
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-brand-violet">Engenharia de Resultados.</span>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-[#FEDF8C]">Engenharia de Resultados.</span>
                 </h2>
                 
                 <p class="text-brand-muted text-lg leading-relaxed mb-8">
